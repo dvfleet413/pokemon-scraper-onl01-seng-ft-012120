@@ -13,6 +13,9 @@ class Pokemon
   
   def self.save(name, type, db)
     binding.pry
+    sql = <<-SQL
+      INSERT INTO pokemon()
+    SQL
   end 
   
   def self.find(id)
