@@ -32,7 +32,7 @@ class Pokemon
       WHERE id = ?
     SQL
     result = db.execute(sql, id)[0]
-    self.new_from_db(result)
+    self.new_from_db(result, db)
   end 
   
 end
