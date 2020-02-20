@@ -19,7 +19,7 @@ class Pokemon
   end 
   
   def self.find(id)
-    
+    sql 
   end 
   
 end
