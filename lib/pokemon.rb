@@ -1,3 +1,5 @@
+require 'pry'
+
 class Pokemon
   attr_accessor :name, :type, :db
   attr_reader :id 
@@ -9,8 +11,8 @@ class Pokemon
     @id = id
   end
   
-  def self.save()
-    
+  def self.save(name, type, db)
+    binding.pry
   end 
   
   def self.find(id)
