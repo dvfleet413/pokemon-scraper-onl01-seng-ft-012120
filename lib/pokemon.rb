@@ -9,11 +9,11 @@ class Pokemon
     @id = id
   end
   
-  def save
+  def self.save
     
   end 
   
-  def find(id)
+  def self.find(id)
     
   end 
   
